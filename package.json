@@ -1,0 +1,19 @@
+{
+  "name": "us-national-peaks",
+  "version": "1.0.0",
+  "description": "Practice utilizing turf.js library using US National Peak Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RCRamsey/us-national-peaks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RCRamsey/us-national-peaks/issues"
+  },
+  "homepage": "https://github.com/RCRamsey/us-national-peaks#readme"
+}
