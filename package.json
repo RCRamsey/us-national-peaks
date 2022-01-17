@@ -1,7 +1,7 @@
 {
   "name": "us-national-peaks",
   "version": "1.0.0",
-  "description": "Practice utilizing turf.js library using US National Peak Data",
+  "description": "Practice utilizing turf.js a JavaScript library designed for advanced geospatial analysis and data manipulation. Using US National Peak Data processed through Node JS envrionment.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
