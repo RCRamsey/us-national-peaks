@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/RCRamsey/us-national-peaks/issues"
   },
-  "homepage": "https://github.com/RCRamsey/us-national-peaks#readme"
+  "homepage": "https://github.com/RCRamsey/us-national-peaks#readme",
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "chalk": "^4.1.2",
+    "csvtojson": "^2.0.10",
+    "geojson-validation": "^1.0.2"
+  }
 }
