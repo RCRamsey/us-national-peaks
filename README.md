@@ -23,14 +23,13 @@ In Command Prompt initialize npm
 
 - Downgrade chalk dependency to 4.1.2 (latest version 5.0 throws require error as is now ESM)
 
-- Run build script from within build-script folder to create us-summit.json within data folder.   
+- Run build script from within build-script folder to create us-summit.json within data folder.     
     ```bash
     node process-csv-national-summit.js
-    ```
-    Command Prompt Response
+    ```  
+    Command Prompt Response  
 
-    ```bash
-    70669 "Summit" features filtered from CSV file  
-    File is confirmed GeoJSON
-    ```
+    ![node-summit-response-in-command-prompot](graphics/node-summit-response-command-prompt.png)*Node summit response in command prompt*  
+    
+    
 
