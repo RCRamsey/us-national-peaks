@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules/
+
+# Large Files
+project-files/NationalFile_20210825.zip
+project-files/NationalFile_20210825.txt
+
+project-files/CO_Features_20210825.txt
+project-files/CO_Features.zip
+
+# Shapefiles #
+##############
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shp.ea.iso.xml
+*.shp.iso.xml
+*.shx
+*.zip
