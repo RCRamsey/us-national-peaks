@@ -95,7 +95,7 @@
 
 
     <script>
-      // create Leaflet map, centered on Texas
+      // create Leaflet map, centered around US
       var map = L.map("map", {
         zoomSnap: 0.1,
         center: [40.33077, -101.5182],
@@ -114,7 +114,7 @@
         }
       ).addTo(map);
 
-      // request our js file
+      // request js file
       d3.json("data/us-summit-hexgrid.json").then(function(data) {
         // loop through all the hex features and push counts to an array
         const counts = [];
@@ -131,6 +131,7 @@
 
       function drawMap(data, counts) {
         
+        // if opt to style without chroma limits
         // // map options
         // var options = {
         //   // style the hexagons
