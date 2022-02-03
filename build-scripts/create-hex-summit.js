@@ -16,12 +16,12 @@ fs.readFile(__dirname + "/../data/us-summit.json", "utf8", (err, data) => {
 });
 
 function createHexGrid(summits) {
-    // note that we could use turf to get a bounding box of our points, 
-    //but this includes points all over the globe (US territories, etc.)
+    // note could use turf to get a bounding box of points, 
+    // but this includes points all over the globe (US territories, etc.)
     // const bbox = turf.bbox(churches)
   
-    // we can concentrate the map on the continental US
-    // to keep our example more simple, so let's just hardcode a bbox
+    // concentrate the map on the continental US
+    // to keep simple, so let's just hardcode a bbox
     // [ minX, minY, maxX, maxY ]
     const bbox = [-125, 23, -65, 50];
   
