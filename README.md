@@ -3,7 +3,7 @@
 https://rcramsey.github.io/us-national-peaks/
 
 Created to fulfull project requirements for MAP675. Process for project creation below.
-Download NationalFile from [here](website) as zipped file of all individual state features.
+Download NationalFile from [US Board Geographic Names](https://www.usgs.gov/u.s.-board-on-geographic-names/download-gnis-data) as zipped file of all individual state features.
 Unzip in project-files directory. 
 - Confirm *project-files* included in *.gitignore*
 
