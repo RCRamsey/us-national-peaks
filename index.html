@@ -106,11 +106,12 @@
       // stadia maps free-2,500 map views per day, 2,500 api request per day (above this and cost incurred), no commercial use (add $25 per month for commercial use), always free for development/testing
       // openmaptiles BSD/CC-BY license and openstreetmap available with attribution for free (Creative commons attribution-sharealike 2.0) (CC BY-SA 2.0)
       L.tileLayer(
-        "https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png",
+        "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
         {
           maxZoom: 20,
+          subdomains: 'abcd',
           attribution:
-            '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
         }
       ).addTo(map);
 
